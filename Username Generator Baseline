@@ -1,4 +1,4 @@
-Username Generator
+Username Generator 
 The user will input their first and last name to create a username. 
 Their username will be the first letter of the first name and their last name. 
 These names are then added to a list that can be accessed alongside their name.
