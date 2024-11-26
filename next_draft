@@ -5,7 +5,7 @@ By: Arthur Gramlich
 
 loginList = []
 admin = "Arthur"
-    
+
 def generator (first, last, name): #creates the username
     firstLetter = first [0] #takes first letter of the name
     username = firstLetter + last #combines first letter of the name to the last name
@@ -31,13 +31,13 @@ def adminAccess(admin): #admin access to create multiple usernames
         return False
     
 while True:
-    first = input("What is the user's first name? (or type 'exit' to quit): ").lower()
+    first = input("What is the user's first name? (or type 'exit' to quit): ").lower() #gets user's first name
     if first == "exit":
         print("Exiting program. ")
         break
-    last = input("What is your last name? ").lower()
+    last = input("What is the user's last name? ").lower() #gets user's last name
     name = f"{first.upper()} {last.upper()}"
-    
+
     generator(first, last, name) #create the username
     isAdmin = adminAccess(admin) #checks for admin access
     if not isAdmin:
