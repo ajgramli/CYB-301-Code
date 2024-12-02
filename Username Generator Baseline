@@ -1,7 +1,7 @@
 Username Generator 
 The user will input their first and last name to create a username. 
 Their username will be the first letter of the first name and their last name. These usernames are then added to a list. 
-The list of passwords will be locked behind a password that could only be accessed by an "admin account".
+The list of names and respective usernames will be locked behind a password that could only be accessed by an "admin account".
 If it is an "admin account", the list can be accessed to see all of the employee names with their usernames.
 If two members have the same last name and first initial, a number will be added to the end of their username. 
 https://www.youtube.com/watch?v=-g-SgMfbBX4 
